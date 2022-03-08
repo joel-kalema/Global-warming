@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Open+Sans:wght@300&family=Poppins:wght@100;400&family=Prompt:wght@300&family=Roboto:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Montserrat:wght@900&family=Open+Sans:wght@300&family=Poppins:wght@100;400&family=Prompt:wght@300&family=Roboto:wght@400;900&display=swap');
 * {
   box-sizing: border-box;
   margin: 0;
@@ -41,20 +42,23 @@ header {
 
 .links {
   width: 100%;
-  height: 3rem;
+  height: 2.5rem;
   background-color: #272a31;
   color: #d3d3d3;
   display: flex;
   align-items:center;
   justify-content: end;
   display: none;
-
 }
 
 nav {
   display: flex;
   width: 100%;
   align-items: center;
+}
+
+.nav-logo {
+  display: none;
 }
 
 .nav-links {
@@ -64,8 +68,9 @@ nav {
 }
 
 .nav-active {
+  z-index: 1;
   position: relative;
-  z-index: 7;
+  z-index: 3;
   position: fixed;
   top: 0;
   left: 0;
@@ -98,7 +103,6 @@ nav {
 
 
 .hambager {
-  z-index: 6;
   top: 10px;
   padding: 10px 20px;
   position: fixed;
@@ -112,7 +116,6 @@ nav {
 
 
 .scroll {
-  z-index: 6;
   top: 10px;
   background-color: #272a31;
   padding: 10px 20px;
@@ -125,7 +128,6 @@ nav {
   -o-transition: 1s ease;
 }
 .icon{
-  z-index: 6;
   padding-left: 0;
   transition: 0.7s ease;
   -webkit-transition: 0.7s ease;
@@ -134,7 +136,6 @@ nav {
   -o-transition: 0.7s ease;
 }
 .active {
-  z-index: 6;
   color: #d3d3d3;
   padding-left: 30px;
   transition: 1s ease;
@@ -145,12 +146,11 @@ nav {
 }
 
 .home{
-  background-image: linear-gradient(rgba(235, 235, 235, 0.856),rgb(230, 230, 230)), url("img/home-mobile.jpg");
+  background-image: linear-gradient(rgba(235, 235, 235, 0.623),rgb(230, 230, 230)), url("img/home-mobile.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 60vh;
 }
 
 .home-containte {
@@ -164,19 +164,19 @@ nav {
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
-  margin-top: 80px;
+  margin-top: 100px;
   font-size: 30px;
   text-transform: uppercase;
   color: #ec53429f;
 }
 .home-containte h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Krona One', sans-serif;
   background-image: url('img/home.jpg');
   background-size: cover;
   background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
-  font-size: 55px;
+  font-size: 50px;
   text-transform: uppercase;
   color: #ec5342a1;
 }
@@ -187,6 +187,11 @@ nav {
   padding: 10px;
   background-color: #d3d3d3;
   width: 100%;
+}
+
+.home-containte h6 {
+  margin: 20px 0;
+  font-size: 20px;
 }
 
 .program {
@@ -200,7 +205,6 @@ nav {
 }
 
 .program h3 {
-  position: relative;
   text-align: center;
   color: #d3d3d3;
   font-size: 20px;
@@ -208,7 +212,6 @@ nav {
 }
 
 .program h3::before {
-  position: absolute;
   content: '';
   width: 40px;
   height: 2px;
@@ -249,15 +252,17 @@ nav {
 }
 
 .program a {
+  font-size: 15px;
   width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #ec5242;
-  padding: 20px 20px;
+  padding: 20px 10px;
 }
 
 .speakers{
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -268,7 +273,6 @@ nav {
 }
 
 .speakers h3 {
-  position: relative;
   text-align: center;
   color: #272a31;
   font-size: 20px;
@@ -276,7 +280,6 @@ nav {
 }
 
 .speakers h3::before {
-  position: absolute;
   content: '';
   width: 40px;
   height: 2px;
@@ -292,6 +295,7 @@ nav {
 }
 
 .speakers .img{
+  z-index: 1;
   position: relative;
   width: 34%;
   height: 130px;
@@ -325,18 +329,9 @@ nav {
 }
 
 .speakers a {
-  position: relative;
   color: #ec5242;
   padding-bottom: 10px;
   font-size: 13px;
-}
-
-.speakers a::before {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 20px;
-  height: 1px;
 }
 
 .speakers h4 {

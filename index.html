@@ -14,19 +14,23 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="media.css" />
     <title>Global warming</title>
   </head>
   <body>
+    <i class="fa fa-asterisk incon01" aria-hidden="true"></i>
+    <i class="fa fa-circle-o-notch incon02" aria-hidden="true"></i>
     <main>
       <header>
         <div class="links">
           <i class="fa fa-facebook" aria-hidden="true"></i>
           <i class="fa fa-twitter" aria-hidden="true"></i>
-          <p>English</p>
-          <p>Frensh</p>
+          <a href="#">English</a>
+          <a href="#">Frensh</a>
+          <a href="#">Logout</a>
         </div>
         <nav>
-          <div class="logo"></div>
+          <div><img src="img/logo-glo.png" class="nav-logo" alt="logo" /></div>
           <div class="hambager">
             <i class="fa fa-indent icon toggle" aria-hidden="true"></i>
           </div>
@@ -37,15 +41,13 @@
               <li><a href="#" class="toggle">Programme</a></li>
               <li><a href="#" class="toggle">Join</a></li>
               <li><a href="#" class="toggle">Sponsors</a></li>
-              <li><a href="#" class="toggle">News</a></li>
+              <li><a href="#" class="toggle importent">News</a></li>
             </ul>
           </div>
         </nav>
       </header>
 
       <section class="home">
-        <i class="fa fa-asterisk incon01" aria-hidden="true"></i>
-        <i class="fa fa-circle-o-notch incon02" aria-hidden="true"></i>
         <div class="home-containte">
           <h1>Global warming:</h1>
           <h2>Myth or reality ?</h2>
@@ -53,6 +55,7 @@
             Like many social and scientific problems, global warming has been
             the subject of controversy from the start.
           </p>
+          <h6>IPCC (International Panel of Experts on Climate)</h6>
         </div>
       </section>
 
@@ -96,31 +99,33 @@
       </section>
       <section class="speakers">
         <h3>Causes Of Global Warming</h3>
-        <div class="speaker-data">
-          <div class="img">
-            <div class="over"></div>
-            <div class="image"></div>
+        <div class="speaker">
+          <div class="speaker-data">
+            <div class="img">
+              <div class="over"></div>
+              <div class="image"></div>
+            </div>
+            <div class="describ">
+              <h4 class="name">Michael lewis</h4>
+              <a class="discription"> Global warming" redirects here...</a>
+              <p class="comment">
+                Before the 1980s, it was unclear whether warming by increased...
+              </p>
+            </div>
           </div>
-          <div class="describ">
-            <h4 class="name">Michael lewis</h4>
-            <a class="discription"> Global warming" redirects here...</a>
-            <p class="comment">
-              Before the 1980s, it was unclear whether warming by increased...
-            </p>
-          </div>
-        </div>
 
-        <div class="speaker-data">
-          <div class="img">
-            <div class="over"></div>
-            <div class="image"></div>
-          </div>
-          <div class="describ">
-            <h4 class="name">Michael lewis</h4>
-            <a class="discription"> Global warming" redirects here...</a>
-            <p class="comment">
-              Before the 1980s, it was unclear whether warming by increased...
-            </p>
+          <div class="speaker-data">
+            <div class="img">
+              <div class="over"></div>
+              <div class="image"></div>
+            </div>
+            <div class="describ">
+              <h4 class="name">Michael lewis</h4>
+              <a class="discription"> Global warming" redirects here...</a>
+              <p class="comment">
+                Before the 1980s, it was unclear whether warming by increased...
+              </p>
+            </div>
           </div>
         </div>
 
@@ -137,14 +142,16 @@
         </div>
       </section>
       <footer>
-        <img src="img/logo-glo.png" alt="" />
+        <div>
+          <img src="img/logo-glo.png" alt="" />
+          <p>Understand the world around us and act for the future.</p>
+        </div>
         <div class="contact">
           <h4>Global warming</h4>
           <a href="#">joelkalema63@gmail.com</a>
         </div>
       </footer>
     </main>
-
     <script src="index.js"></script>
   </body>
 </html>

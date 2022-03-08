@@ -1,0 +1,161 @@
+@media only screen and (min-width: 768px) {
+  nav {
+    padding: 0 100px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+  }
+  .nav-links {
+    width: 80%;
+    display: flex;
+  }
+
+  .hambager, .close {
+    display: none;
+  }
+
+  .nav-links ul{
+    display: flex;
+  }
+
+  .nav-links ul li a{
+    color: #272a31;
+    margin-right: 50px;
+    font-size: 15px;
+  }
+
+  .importent {
+    padding: 6px 20px;
+    border: 3px #ec5242 solid;
+    color: #ec5242;
+  }
+
+  .nav-active {
+    display: none;
+  }
+
+  .links {
+    font-size: 13px;
+    padding-right: 200px;
+    display: flex;
+  }
+
+  .links i,
+  .links a {
+    margin-right: 15px;
+  }
+  
+  .nav-logo {
+    display: block;
+    padding: 10px;
+    width: 155px;
+  }
+
+  .home{
+    background-image: linear-gradient(rgba(235, 235, 235, 0.856),rgb(230, 230, 230)), url("img/home.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    padding: 0 130px;
+  }
+
+  .home-containte h1 {
+    font-weight: 900;
+    margin-top: 20%;
+    font-size: 50px;
+  }
+
+  .home-containte p {
+    margin-top: 30px;
+    padding: 20px 10px;
+    width: 50%;
+  }
+
+  .cause-containt{
+    width: 70%;
+    display: flex;
+    margin: 60px auto;
+  }
+
+  .cause {
+    margin: 2px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cause:hover {
+    border: #fff 1px solid;
+  }
+
+  .cause i {
+    width: 100%;
+    padding: 7px;
+    font-size: 35px;
+  }
+
+  .cause h4 {
+    width: 100%;
+    padding: 5px;
+  }
+
+  .cause p {
+    font-size: 13px;
+    width: 100%;
+    padding: 5px 18px;
+  }
+
+  .program a {
+    font-size: 15px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ec5242;
+    padding: 20px 10px;
+  }
+
+  .speaker{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+    background-color: #d3d3d3;
+  }
+
+  .speakers .more {
+    width: 25%;
+    margin: 40px auto;
+    color: #ec5242;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .partener-link {
+    margin: 40px auto;
+    width: 50%;
+  }
+
+  footer {
+    justify-content: space-around;
+  }
+
+  footer img {
+    width: 220px;
+    padding: 30px;
+  }
+
+  footer .contact {
+    width: 30%;
+  }
+
+
+}
