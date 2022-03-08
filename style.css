@@ -65,11 +65,24 @@ nav {
   justify-content: flex-end;
 }
 
+
 .hambager {
+  top: 10px;
+  padding: 10px 20px;
   position: fixed;
-  top: 1.5rem;
-  left: 1.5rem;
   font-size: 30px;
+}
+
+.scroll {
+  top: 10px;
+  background-color: #272a31;
+  padding: 10px 20px;
+  position: fixed;
+  font-size: 30px;
+}
+
+.active {
+  padding-left: 0;
 }
 
 .home{
