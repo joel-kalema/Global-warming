@@ -294,33 +294,13 @@ nav {
   justify-content: center;
 }
 
-.speakers .img{
-  z-index: 1;
-  position: relative;
-  width: 34%;
-  height: 130px;
-}
-
 .speakers .image {
   background-image: url('img/speaker01.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  width: 90%;
-  height: 100px;
-  position: absolute;
-  bottom: 20px;
-  right: 0;
-}
-
-.speakers .over {
-  background-image: url('img/over.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 70px;
-  height: 70px;
-  position: absolute;
-  left: 0;
-  top: 0;
+  margin: auto 0;
+  width: 40%;
+  height: 120px;
 }
 
 .speakers .describ {
@@ -330,16 +310,16 @@ nav {
 
 .speakers a {
   color: #ec5242;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   font-size: 13px;
 }
 
 .speakers h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
+  font-size: 15px;
+  margin-bottom: 5px;
 }
 .comment {
-  padding-top: 10px;
+  padding-top: 5px;
   font-size: 14px;
 }
 
@@ -401,16 +381,19 @@ footer {
 
 footer img {
   width: 50%;
-  padding: 20px;
 }
 
 .contact h4 {
   margin-top: 15px;
 }
 
-footer img {
+footer .foot-logo {
+  margin-top: 10px;
   width: 50%;
-  padding: 30px;
+  padding: 10px 20px;
+}
+footer .foot-logo p{
+  width: 100%;
 }
 
 footer .contact {
@@ -423,12 +406,17 @@ footer a {
   font-size: 10px;
 }
 
+footer p {
+  margin: 0;
+  font-size: 10px;
+  width: 200px;
+}
+
 
 
 .home-about{
   background-color: #d3d3d3;
   width: 100%;
-  height: 80vh;
   text-align: center;
 }
 
@@ -444,7 +432,7 @@ footer a {
   font-size: 17px;
   margin-top: 30px;
   margin-bottom: 20px;
-  color: #17191d;;
+  color: #17191d;
 }
 
 .home-about .home-containte h1 {
@@ -456,11 +444,8 @@ footer a {
 
 .contact a {
   padding-top: 15px;
-  color: #17191d;
-  text-decoration: underline;
-}
-.contact a:hover {
   color: #ec5242;
+  text-decoration: underline;
 }
 
 .logo {
