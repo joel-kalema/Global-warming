@@ -18,9 +18,6 @@
   </head>
   <body>
     <main>
-      <div class="hambager">
-        <i class="fa fa-indent active" aria-hidden="true"></i>
-      </div>
       <header>
         <div class="links">
           <i class="fa fa-facebook" aria-hidden="true"></i>
@@ -30,13 +27,19 @@
         </div>
         <nav>
           <div class="logo"></div>
-          <ul class="nav-links">
-            <li><a href="#">About</a></li>
-            <li><a href="#">Programme</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Sponsors</a></li>
-            <li><a href="#">News</a></li>
-          </ul>
+          <div class="hambager">
+            <i class="fa fa-indent icon toggle" aria-hidden="true"></i>
+          </div>
+          <div class="nav-links">
+            <i class="fa fa-times close toggle" aria-hidden="true"></i>
+            <ul>
+              <li><a href="index.html" class="toggle">Home</a></li>
+              <li><a href="#" class="toggle">Programme</a></li>
+              <li><a href="#" class="toggle">Join</a></li>
+              <li><a href="#" class="toggle">Sponsors</a></li>
+              <li><a href="#" class="toggle">News</a></li>
+            </ul>
+          </div>
         </nav>
       </header>
 
@@ -81,8 +84,14 @@
         <h3>See the past Global warming simmit</h3>
         <p>Tahe a look at the last tow comment how bring solution</p>
 
-        <div class="winer01"><h1>Global warming 2019</h1></div>
-        <div class="winer02"><h1>Global warming 2017</h1></div>
+        <div class="winer01">
+          <p>Global warming</p>
+          <h1>2019</h1>
+        </div>
+        <div class="winer02">
+          <p>Global warming</p>
+          <h1>2017</h1>
+        </div>
       </section>
 
       <section class="partener">
@@ -93,6 +102,7 @@
           <i class="fa fa-audio-description" aria-hidden="true"></i>
         </div>
       </section>
+
       <footer>
         <img src="img/logo-glo.png" alt="" />
         <div class="contact">
@@ -101,5 +111,7 @@
         </div>
       </footer>
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
