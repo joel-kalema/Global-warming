@@ -157,5 +157,33 @@
     width: 30%;
   }
 
+  .home-containte{
+    padding-top: 10%;
+  }
+
+  .home-about {
+    padding: 90px 200px;
+  }
+
+  .home-about .home-containte .phrase {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .historique {
+    padding: 2.5rem 15rem;
+  }
+
+  .historique img {
+    width: 50%;
+    height: 10rem;
+    margin: 90px auto;
+  }
+
+  .historique h2 {
+    width: 70%;
+    color: #ec5242;
+    font-size: 30px;
+  }
 
 }
