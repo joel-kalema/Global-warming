@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Open+Sans:wght@300&family=Poppins:wght@100;400&family=Prompt:wght@300&family=Roboto:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Montserrat:wght@900&family=Open+Sans:wght@300&family=Poppins:wght@100;400&family=Prompt:wght@300&family=Roboto:wght@400;900&display=swap');
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -24,14 +25,15 @@ li {
   color: #ec5242;
 }
 
-.incon01{
+.incon01 {
   top: 9rem;
   right: 10px;
   font-size: 100px;
   position: absolute;
   color: #272a311c;
 }
-.incon02{
+
+.incon02 {
   top: 2rem;
   right: 9rem;
   font-size: 50px;
@@ -50,7 +52,7 @@ header {
   background-color: #272a31;
   color: #d3d3d3;
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: end;
   display: none;
 }
@@ -89,7 +91,7 @@ nav {
   margin-top: 60px;
 }
 
-.nav-active ul li{
+.nav-active ul li {
   padding: 9px 15px;
   width: 85%;
   margin: 3px auto;
@@ -108,7 +110,6 @@ nav {
   font-size: 35px;
 }
 
-
 .hambager {
   top: 10px;
   padding: 10px 20px;
@@ -120,7 +121,6 @@ nav {
   -ms-transition: 1s ease;
   -o-transition: 1s ease;
 }
-
 
 .scroll {
   top: 10px;
@@ -134,7 +134,8 @@ nav {
   -ms-transition: 1s ease;
   -o-transition: 1s ease;
 }
-.icon{
+
+.icon {
   padding-left: 0;
   transition: 0.7s ease;
   -webkit-transition: 0.7s ease;
@@ -142,6 +143,7 @@ nav {
   -ms-transition: 0.7s ease;
   -o-transition: 0.7s ease;
 }
+
 .active {
   color: #d3d3d3;
   padding-left: 30px;
@@ -152,8 +154,8 @@ nav {
   -o-transition: 1s ease;
 }
 
-.home{
-  background-image: linear-gradient(rgba(235, 235, 235, 0.623),rgb(230, 230, 230)), url("img/home-mobile.jpg");
+.home {
+  background-image: linear-gradient(rgba(235, 235, 235, 0.623), rgb(230, 230, 230)), url("img/home-mobile.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,6 +177,7 @@ nav {
   text-transform: uppercase;
   color: #ec53429f;
 }
+
 .home-containte h2 {
   font-family: 'Krona One', sans-serif;
   background-image: url('img/home.jpg');
@@ -227,7 +230,7 @@ nav {
   left: 40%;
 }
 
-.cause-containt{
+.cause-containt {
   margin: 30px 0;
 }
 
@@ -271,7 +274,7 @@ nav {
   padding: 20px 10px;
 }
 
-.speakers{
+.speakers {
   z-index: 1;
   display: flex;
   justify-content: center;
@@ -381,12 +384,13 @@ nav {
   font-size: 15px;
   margin-bottom: 5px;
 }
+
 .comment {
   padding-top: 5px;
   font-size: 14px;
 }
 
-.speakers .more{
+.speakers .more {
   margin: 50px 0;
   text-align: center;
   width: 100%;
@@ -396,7 +400,7 @@ nav {
   color: #272a31;
 }
 
-.speakers .more i{
+.speakers .more i {
   color: #ec5242;
 }
 
@@ -410,7 +414,7 @@ nav {
   background-color: #272a31;
 }
 
-.partener-link i{
+.partener .partener-link i {
   color: #646566;
 }
 
@@ -432,6 +436,7 @@ nav {
 .part-name h4 {
   font-size: 15px;
 }
+
 .part-name {
   text-align: center;
   color: #0c0c0c;
@@ -471,7 +476,8 @@ footer .foot-logo {
   width: 50%;
   padding: 10px 20px;
 }
-footer .foot-logo p{
+
+footer .foot-logo p {
   width: 100%;
 }
 
@@ -480,7 +486,7 @@ footer .contact {
   padding: 20px;
 }
 
-footer a {
+.contact a {
   margin: 0;
   font-size: 10px;
 }
@@ -513,7 +519,7 @@ footer p {
   color: #ec5242;
 }
 
-.home-about{
+.home-about {
   background-color: #d3d3d3;
   width: 100%;
   text-align: center;
@@ -526,6 +532,7 @@ footer p {
   background-color: rgb(247, 247, 247);
   width: 100%;
 }
+
 .historique h5,
 .contact h5 {
   font-size: 17px;
@@ -541,7 +548,7 @@ footer p {
   color: #ec5242;
 }
 
-.contact a {
+.mail a {
   padding-top: 15px;
   color: #ec5242;
   text-decoration: underline;
@@ -608,13 +615,13 @@ footer p {
 }
 
 .winer01 {
-  background-image: linear-gradient(#ec5342d5,#ec5342c4), url("img/winer01.jpg");
+  background-image: linear-gradient(#ec5342d5, #ec5342c4), url("img/winer01.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 200px;
   margin-bottom: 30px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -622,13 +629,13 @@ footer p {
 }
 
 .winer02 {
-  background-image: linear-gradient(#ec5342cc,#ec5342c7), url("img/winer.jpg");
+  background-image: linear-gradient(#ec5342cc, #ec5342c7), url("img/winer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 200px;
   margin-bottom: 30px;
-  color: #ffffff;
+  color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;

@@ -7,14 +7,15 @@
     background-color: #fff;
   }
 
-  .incon01{
+  .incon01 {
     top: 11rem;
     right: 10rem;
     font-size: 100px;
     position: absolute;
     color: #272a311c;
   }
-  .incon02{
+
+  .incon02 {
     top: 12rem;
     right: 13rem;
     font-size: 200px;
@@ -29,28 +30,29 @@
     -moz-transition: 0.7s ease;
     -ms-transition: 0.7s ease;
     -o-transition: 0.7s ease;
-}
+  }
 
   .nav-links {
     width: 80%;
     display: flex;
   }
 
-  .hambager, .close {
+  .hambager,
+  .close {
     display: none;
   }
 
-  .nav-links ul{
+  .nav-links ul {
     display: flex;
   }
 
-  .nav-links ul li a{
+  .nav-links ul li a {
     color: #272a31;
     margin-right: 50px;
     font-size: 15px;
   }
 
-  .nav-links ul li a:hover{
+  .nav-links ul li a:hover {
     color: #ec5242;
   }
 
@@ -74,15 +76,15 @@
   .links a {
     margin-right: 15px;
   }
-  
+
   .nav-logo {
     display: block;
     padding: 10px;
     width: 155px;
   }
 
-  .home{
-    background-image: linear-gradient(rgba(235, 235, 235, 0.856),rgb(230, 230, 230)), url("img/home.jpg");
+  .home {
+    background-image: linear-gradient(rgba(235, 235, 235, 0.856), rgb(230, 230, 230)), url("img/home.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -103,7 +105,7 @@
     width: 50%;
   }
 
-  .cause-containt{
+  .cause-containt {
     width: 70%;
     display: flex;
     margin: 60px auto;
@@ -168,7 +170,7 @@
     -moz-transition: 0.5s ease;
     -ms-transition: 0.5s ease;
     -o-transition: 0.5s ease;
-}
+  }
 
   .speakers h3 {
     color: #272a31a9;
@@ -271,6 +273,7 @@
   .part-name h4 {
     font-size: 25px;
   }
+
   .part-name {
     text-align: center;
   }
@@ -284,16 +287,16 @@
   .footer .large {
     width: 100%;
   }
-  
+
   footer img {
     width: 60%;
     padding: 0 30px;
   }
-  
+
   .contact h4 {
     font-size: 20px;
   }
-  
+
   footer .foot-logo {
     width: 50%;
   }
@@ -301,22 +304,22 @@
   footer .foot-logo p {
     display: none;
   }
- 
+
   .large {
     display: block;
     font-size: 16px;
   }
-  
+
   .contact {
     width: 100%;
   }
-  
-  footer a {
+
+  .mail a {
     margin: 10px 0;
     font-size: 15px;
   }
-  
-  .home-containte{
+
+  .home-containte {
     padding-top: 10%;
   }
 
@@ -352,12 +355,12 @@
     display: flex;
     justify-content: space-around;
   }
-  
+
   .winer01 {
     width: 45%;
   }
+
   .winer02 {
     width: 45%;
   }
-
 }
