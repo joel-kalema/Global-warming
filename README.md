@@ -18,6 +18,8 @@
 
 [Live Demo](https://joel-kalema.github.io/Global-warming/)
 
+[video capture](https://www.loom.com/share/7889dce932244524af88161859bba13e)
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
