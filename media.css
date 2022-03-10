@@ -1,3 +1,20 @@
+@media only screen and (min-width: 420px) and (max-width: 768px) {
+  .home {
+    width: 100%;
+    padding: 0 50px;
+  }
+
+  .home-containte h1 {
+    margin-top: 25%;
+    font-size: 30px;
+  }
+
+  .home-containte h2 {
+    font-weight: 900;
+    font-size: 30px;
+  }
+}
+
 @media only screen and (min-width: 768px) {
   nav {
     padding: 0 100px;
@@ -7,12 +24,10 @@
     background-color: #fff;
   }
 
-  .incon01 {
-    top: 11rem;
-    right: 10rem;
-    font-size: 100px;
-    position: absolute;
-    color: #272a311c;
+  .incon02 {
+    top: 50vh;
+    right: 25%;
+    font-size: 20rem;
   }
 
   .cause i {
@@ -36,7 +51,7 @@
   .nav-links ul li a {
     color: #272a31;
     margin-right: 50px;
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .globe {
@@ -62,14 +77,6 @@
     -moz-transition: 1s;
     -ms-transition: 1s;
     -o-transition: 1s;
-  }
-
-  .incon02 {
-    top: 12rem;
-    right: 13rem;
-    font-size: 200px;
-    position: absolute;
-    color: #ec53424d;
   }
 
   .desc-scrool {
@@ -134,18 +141,21 @@
   }
 
   .home {
-    background-image: linear-gradient(rgba(235, 235, 235, 0.856), rgb(230, 230, 230)), url("img/home.jpg");
+    background-image: linear-gradient(rgba(235, 235, 235, 0.74), rgb(230, 230, 230)), url("img/home.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
     width: 100%;
-    padding: 0 130px;
+  }
+
+  .home-containte {
+    width: 90%;
+    margin: 0 auto;
   }
 
   .home-containte h1 {
     font-weight: 900;
-    margin-top: 15%;
+    margin-top: 15rem;
     font-size: 50px;
   }
 
@@ -153,6 +163,10 @@
     margin-top: 30px;
     padding: 20px 10px;
     width: 50%;
+  }
+
+  .home-containte h6 {
+    margin-bottom: 5rem;
   }
 
   .cause-containt {
@@ -343,12 +357,13 @@
     width: 100%;
   }
 
-  .home-containte {
-    padding-top: 4%;
+  .home-about .home-containte {
+    width: 80%;
+    margin: 0 auto;
   }
 
-  .home-about {
-    padding: 90px 200px;
+  .home-about .home-containte h1 {
+    margin-top: 11rem;
   }
 
   .home-about .home-containte .phrase {
@@ -361,8 +376,10 @@
     font-size: 30px;
   }
 
-  .historique {
-    padding: 2.5rem 15rem;
+  .history-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .historique img {
@@ -373,7 +390,6 @@
 
   .historique h2 {
     margin-bottom: 30px;
-    width: 70%;
     color: #ec5242;
     font-size: 30px;
   }
