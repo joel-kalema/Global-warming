@@ -1,3 +1,5 @@
+const showMore = document.querySelector('.more');
+const speakersSection = document.querySelector('.speaker');
 const speackers = [
   {
     name: 'Joel kama',
@@ -9,31 +11,31 @@ const speackers = [
     name: 'Marcus perezz',
     photo: 'image02',
     role: 'Project manager',
-    description: 'Before the 1980s, it was unclear whether warming by increased...',
+    description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Jean de Dieu',
     photo: 'image03',
     role: 'Project manager',
-    description: 'Before the 1980s, it was unclear whether warming by increased...',
+    description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Grisia luiws',
     photo: 'image04',
     role: 'Project manager',
-    description: 'Before the 1980s, it was unclear whether warming by increased...',
+    description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Sham Gomez',
     photo: 'image05',
     role: 'Project manager',
-    description: 'Before the 1980s, it was unclear whether warming by increased...',
+    description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Michal Rio',
     photo: 'image06',
     role: 'Project manager',
-    description: 'Before the 1980s, it was unclear whether warming by increased...',
+    description: 'Before the 1980s, it was unclear whether warming by increased',
   },
 ];
 
@@ -63,13 +65,43 @@ closeNav.forEach((close) => {
 });
 
 const mainProjectsContainer = document.querySelector('.speaker');
-mainProjectsContainer.innerHTML += speackers.map((project) => (`<div class="speaker-data">
-                                                                <div class="${project.photo}"></div>
-                                                                  <div class="describ">
-                                                                     <h4 class="name">${project.name}</h4>
-                                                                     <a class="discription">${project.role}</a>
-                                                                     <p class="comment">
-                                                                       ${project.description}
-                                                                     </p>
-                                                                  </div>
-                                                                </div>`));
+mainProjectsContainer.innerHTML += speackers.map((project, index) => {
+  let card = `<div class="speaker-data">
+  <div class="${project.photo}"></div>
+    <div class="describ">
+       <h4 class="name">${project.name}</h4>
+       <a class="discription">${project.role}</a>
+       <p class="comment">
+         ${project.description}
+       </p>
+    </div>
+  </div>`;
+
+  if (index >= 2) {
+    card = `<div class="hidden">
+    <div class="${project.photo}"></div>
+      <div class="describ">
+         <h4 class="name">${project.name}</h4>
+         <a class="discription">${project.role}</a>
+         <p class="comment">
+           ${project.description}
+         </p>
+      </div>
+    </div>`;
+  }
+
+  return card;
+});
+
+showMore.addEventListener('click', (e) => {
+  e.preventDefault();
+  speakersSection.classList.toggle('expand');
+
+  if (speakersSection.classList.contains('expand')) {
+    document.querySelector('.expand-arrow').classList.remove('fa-chevron-down');
+    document.querySelector('.expand-arrow').classList.add('fa-chevron-up');
+  } else {
+    document.querySelector('.expand-arrow').classList.add('fa-chevron-down');
+    document.querySelector('.expand-arrow').classList.remove('fa-chevron-up');
+  }
+});
