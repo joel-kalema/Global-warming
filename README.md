@@ -10,7 +10,7 @@
 - Css
 - Js
 
-## Image
+## Screenshots
 
 ![Mobile version screeshot](img/live.jpg)
 
