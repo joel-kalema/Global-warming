@@ -10,6 +10,10 @@
 - Css
 - Js
 
+## Image
+
+![Mobile version screeshot](img/live.jpg)
+
 ## Live Demo
 
 [Live Demo](https://joel-kalema.github.io/Global-warming/)
