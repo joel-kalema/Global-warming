@@ -12,13 +12,13 @@
 
 ## Screenshots
 
-![Mobile version screeshot](img/live.jpg)
+![Mobile version screeshot](img/live.jpg/)
 
 ## Live Demo
 
 [Live Demo](https://joel-kalema.github.io/Global-warming/)
 
-[video capture](https://www.loom.com/share/7889dce932244524af88161859bba13e)
+[video capture](https://www.loom.com/share/7889dce932244524af88161859bba13e/)
 
 ## Getting Started
 
