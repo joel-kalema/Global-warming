@@ -292,15 +292,6 @@ nav {
   padding-bottom: 10px;
 }
 
-.program h3::before {
-  content: '';
-  width: 40px;
-  height: 2px;
-  background-color: #ec5242;
-  bottom: 0;
-  left: 40%;
-}
-
 .cause-containt {
   margin: 30px 0;
 }
@@ -319,19 +310,18 @@ nav {
 .cause h4 {
   width: 30%;
   color: #ec5242;
-  padding: 5px;
 }
 
 .cause p {
-  padding-left: 7px;
+  padding-left: 5px;
   font-size: 15px;
   width: 60%;
 }
 
 .cause i {
-  width: 10%;
+  width: 20%;
   padding: 7px;
-  font-size: 15px;
+  font-size: 35px;
 }
 
 .speakers {
@@ -535,6 +525,11 @@ footer .contact {
 
 .large {
   display: none;
+}
+
+.historique h2 {
+  margin-bottom: 30px;
+  color: #ec5242;
 }
 
 .home-about .home-containte h1 {
