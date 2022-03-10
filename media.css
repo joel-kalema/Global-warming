@@ -118,9 +118,13 @@
     color: #ec5242;
   }
 
-  .importent {
+  .nav-links ul li .importent {
     padding: 0 20px;
     border: 2px #ec5242 solid;
+    color: #ec5242;
+  }
+
+  .nav-links ul li .importent01 {
     color: #ec5242;
   }
 
