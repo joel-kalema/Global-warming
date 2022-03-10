@@ -28,6 +28,10 @@ li {
   font-size: 13px;
 }
 
+.desk {
+  display: none;
+}
+
 .program a {
   cursor: pointer;
   font-size: 15px;
@@ -45,6 +49,12 @@ li {
 
 .hidden {
   display: none;
+}
+
+.bihande {
+  width: 70px;
+  margin-right: -60px;
+  margin-top: -5px;
 }
 
 .expand .hidden {

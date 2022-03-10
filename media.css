@@ -229,6 +229,11 @@
     padding: 40px 0;
   }
 
+  .bihande {
+    margin-top: -15px;
+    margin-right: -55px;
+  }
+
   .speakers .image01 {
     background-image: url('img/speaker01.jpg');
     background-repeat: no-repeat;

@@ -52,6 +52,13 @@ const navOpen = document.querySelectorAll('.toggle');
 const nav = document.querySelector('.nav-links');
 const closeNav = document.querySelectorAll('.toggle-close');
 
+if (window.screenX > 400) {
+  nav.classList.remove('nav-active');
+}
+window.addEventListener('scroll', () => {
+  nav.classList.remove('nav-active', window.screen.width < 0);
+});
+
 navOpen.forEach((btn) => {
   btn.addEventListener('click', () => {
     nav.classList.toggle('nav-active');
@@ -67,6 +74,7 @@ closeNav.forEach((close) => {
 const mainProjectsContainer = document.querySelector('.speaker');
 mainProjectsContainer.innerHTML += speackers.map((project, index) => {
   let card = `<div class="speaker-data">
+  <span><img src="img/pos.jpg" alt="" class="bihande"></span>
   <div class="${project.photo}"></div>
     <div class="describ">
        <h4 class="name">${project.name}</h4>
@@ -79,6 +87,7 @@ mainProjectsContainer.innerHTML += speackers.map((project, index) => {
 
   if (index >= 2) {
     card = `<div class="hidden">
+    <span><img src="img/pos.jpg" alt="" class="bihande"></span>
     <div class="${project.photo}"></div>
       <div class="describ">
          <h4 class="name">${project.name}</h4>
