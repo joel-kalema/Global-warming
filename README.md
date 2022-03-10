@@ -18,7 +18,7 @@
 
 [Live Demo](https://joel-kalema.github.io/Global-warming/)
 
-[video capture](https://www.loom.com/share/7889dce932244524af88161859bba13e)
+[video capture](https://www.loom.com/share/1ae7a65d5c1d4a148316467cb290204d)
 
 ## Getting Started
 

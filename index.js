@@ -55,9 +55,6 @@ const closeNav = document.querySelectorAll('.toggle-close');
 if (window.screenX > 400) {
   nav.classList.remove('nav-active');
 }
-window.addEventListener('scroll', () => {
-  nav.classList.remove('nav-active', window.screen.width < 0);
-});
 
 navOpen.forEach((btn) => {
   btn.addEventListener('click', () => {
