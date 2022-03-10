@@ -8,6 +8,7 @@
 }
 
 body {
+  overflow-x: hidden;
   font-family: 'Poppins', sans-serif;
   background-color: #d3d3d3;
 }
@@ -21,6 +22,23 @@ li {
   list-style: none;
 }
 
+.speakers a {
+  color: #ec5242;
+  padding-bottom: 5px;
+  font-size: 13px;
+}
+
+.program a {
+  cursor: pointer;
+  font-size: 15px;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ec5242;
+  padding: 20px 10px;
+}
+
 .active-nav a {
   color: #ec5242;
 }
@@ -31,6 +49,21 @@ li {
   font-size: 100px;
   position: absolute;
   color: #272a311c;
+}
+
+.hidden {
+  display: none;
+}
+
+.expand .hidden {
+  margin-top: 20px;
+  justify-content: center;
+  display: flex;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .incon02 {
@@ -51,7 +84,6 @@ header {
   height: 2.5rem;
   background-color: #272a31;
   color: #d3d3d3;
-  display: flex;
   align-items: center;
   justify-content: end;
   display: none;
@@ -63,44 +95,56 @@ nav {
   align-items: center;
 }
 
+.globe {
+  display: block;
+  font-size: 25rem;
+  right: -20px;
+  position: absolute;
+  bottom: -20px;
+  color: #d3d3d38a;
+}
+
 .nav-logo {
   display: none;
 }
 
 .nav-links {
+  overflow: hidden;
   display: none;
   align-items: center;
   justify-content: flex-end;
 }
 
 .nav-active {
+  overflow: hidden;
   z-index: 1;
   position: relative;
-  z-index: 3;
   position: fixed;
   top: 0;
   left: 0;
   display: block;
   align-items: center;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-color: #272a31;
 }
 
 .nav-active ul {
+  width: 85%;
   margin-top: 60px;
 }
 
 .nav-active ul li {
   padding: 9px 15px;
-  width: 85%;
-  margin: 3px auto;
-  background-color: #d3d3d333;
+  width: 100%;
 }
 
-.nav-active a {
+.nav-active ul li a {
+  padding: 8px 10px;
+  margin: 5px auto;
   color: #e96e60;
-  font-size: 20px;
+  font-size: 25px;
+  width: 100%;
 }
 
 .nav-active .close {
@@ -170,7 +214,6 @@ nav {
   font-family: 'Krona One', sans-serif;
   background-image: url('img/home.jpg');
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
   margin-top: 100px;
@@ -182,7 +225,6 @@ nav {
   font-family: 'Krona One', sans-serif;
   background-image: url('img/home.jpg');
   background-size: cover;
-  background-clip: text;
   -webkit-background-clip: text;
   font-weight: 900;
   font-size: 50px;
@@ -263,17 +305,6 @@ nav {
   font-size: 15px;
 }
 
-.program a {
-  cursor: pointer;
-  font-size: 15px;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ec5242;
-  padding: 20px 10px;
-}
-
 .speakers {
   z-index: 1;
   display: flex;
@@ -302,8 +333,8 @@ nav {
 }
 
 .speaker-data {
-  margin-top: 20px;
   display: flex;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -361,23 +392,9 @@ nav {
   height: 120px;
 }
 
-.speaker-data:nth-child(n+3) {
-  display: none;
-}
-
-.speaker-dataAll:nth-child(n+3) {
-  display: block;
-}
-
 .speakers .describ {
   width: 66%;
   padding: 10px;
-}
-
-.speakers a {
-  color: #ec5242;
-  padding-bottom: 5px;
-  font-size: 13px;
 }
 
 .speakers h4 {
@@ -478,7 +495,8 @@ footer .foot-logo {
 }
 
 footer .foot-logo p {
-  width: 100%;
+  margin: 0;
+  font-size: 10px;
 }
 
 footer .contact {
@@ -486,19 +504,8 @@ footer .contact {
   padding: 20px;
 }
 
-.contact a {
-  margin: 0;
-  font-size: 10px;
-}
-
 .large {
   display: none;
-}
-
-footer p {
-  margin: 0;
-  font-size: 10px;
-  width: 200px;
 }
 
 .home-about .home-containte h1 {
@@ -541,15 +548,8 @@ footer p {
   color: #17191d;
 }
 
-.home-about .home-containte h1 {
-  font-weight: 900;
-  margin-top: 70px;
-  text-transform: uppercase;
-  color: #ec5242;
-}
-
-.mail a {
-  padding-top: 15px;
+.mail {
+  font-size: 10px;
   color: #ec5242;
   text-decoration: underline;
 }
@@ -578,15 +578,6 @@ footer p {
   padding-bottom: 20px;
 }
 
-.historique h3::before {
-  content: '';
-  width: 40px;
-  height: 2px;
-  background-color: #ec5242;
-  bottom: 0;
-  left: 35%;
-}
-
 .past {
   padding: 20px 20px;
   text-align: center;
@@ -601,19 +592,6 @@ footer p {
   padding-bottom: 20px;
 }
 
-.past p {
-  margin: 20px 10px;
-}
-
-.past h3::before {
-  content: '';
-  width: 40px;
-  height: 2px;
-  background-color: #ec5242;
-  bottom: 0;
-  left: 40%;
-}
-
 .winer01 {
   background-image: linear-gradient(#ec5342d5, #ec5342c4), url("img/winer01.jpg");
   background-repeat: no-repeat;
@@ -623,6 +601,7 @@ footer p {
   margin-bottom: 30px;
   color: #fff;
   display: flex;
+  font-size: 35px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -635,19 +614,10 @@ footer p {
   width: 100%;
   height: 200px;
   margin-bottom: 30px;
+  font-size: 35px;
   color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-}
-
-.winer02 h1,
-.winer01 h1 {
-  font-size: 35px;
-}
-
-.winer02 p,
-.winer01 p {
-  margin: 0;
 }
