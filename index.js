@@ -3,37 +3,37 @@ const speakersSection = document.querySelector('.speaker');
 const speackers = [
   {
     name: 'Joel kama',
-    photo: 'image01',
+    photo: 'img/speaker01.jpg',
     role: 'Project manager',
     description: 'Before the 1980s, it was unclear whether warming by increased...',
   },
   {
     name: 'Marcus perezz',
-    photo: 'image02',
+    photo: 'img/speaker02.jpg',
     role: 'Project manager',
     description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Jean de Dieu',
-    photo: 'image03',
+    photo: 'img/speaker03.jpg',
     role: 'Project manager',
     description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Grisia luiws',
-    photo: 'image04',
+    photo: 'img/speaker04.jpg',
     role: 'Project manager',
     description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Sham Gomez',
-    photo: 'image05',
+    photo: 'img/speaker05.jpg',
     role: 'Project manager',
     description: 'Before the 1980s, it was unclear whether warming by increased',
   },
   {
     name: 'Michal Rio',
-    photo: 'image06',
+    photo: 'img/speaker06.jpg',
     role: 'Project manager',
     description: 'Before the 1980s, it was unclear whether warming by increased',
   },
@@ -49,12 +49,8 @@ window.addEventListener('scroll', () => {
 });
 
 const navOpen = document.querySelectorAll('.toggle');
-const nav = document.querySelector('.nav-links');
+const nav = document.querySelector('.nav-show');
 const closeNav = document.querySelectorAll('.toggle-close');
-
-if (window.screenX > 400) {
-  nav.classList.remove('nav-active');
-}
 
 navOpen.forEach((btn) => {
   btn.addEventListener('click', () => {
@@ -71,8 +67,9 @@ closeNav.forEach((close) => {
 const mainProjectsContainer = document.querySelector('.speaker');
 mainProjectsContainer.innerHTML += speackers.map((project, index) => {
   let card = `<div class="speaker-data">
-  <span><img src="img/pos.jpg" alt="" class="bihande"></span>
-  <div class="${project.photo}"></div>
+    <div class="box-img">
+    <img src="${project.photo}" class="image" alt="" />
+    </div>  
     <div class="describ">
        <h4 class="name">${project.name}</h4>
        <a class="discription">${project.role}</a>
@@ -84,8 +81,9 @@ mainProjectsContainer.innerHTML += speackers.map((project, index) => {
 
   if (index >= 2) {
     card = `<div class="hidden">
-    <span><img src="img/pos.jpg" alt="" class="bihande"></span>
-    <div class="${project.photo}"></div>
+    <div class="box-img">
+    <img src="${project.photo}" class="image" alt="" />
+    </div> 
       <div class="describ">
          <h4 class="name">${project.name}</h4>
          <a class="discription">${project.role}</a>

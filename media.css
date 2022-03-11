@@ -1,4 +1,4 @@
-@media only screen and (min-width: 420px) and (max-width: 768px) {
+@media only screen and (min-width: 420px) {
   .home {
     width: 100%;
     padding: 0 50px;
@@ -11,7 +11,37 @@
 
   .home-containte h2 {
     font-weight: 900;
-    font-size: 30px;
+    font-size: 40px;
+  }
+
+  .comment {
+    font-size: 0.8rem;
+  }
+
+  .box-img {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 150px;
+    height: 130px;
+  }
+
+  .hidden {
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 680px) {
+  .box-img {
+    padding-top: 15px;
+    padding-left: 15px;
+    width: 140px;
+    height: 130px;
+  }
+
+  .incon02 {
+    top: 40vh;
+    right: 25%;
+    font-size: 20rem;
   }
 }
 
@@ -28,6 +58,10 @@
     top: 50vh;
     right: 25%;
     font-size: 20rem;
+  }
+
+  .nav-show {
+    display: none;
   }
 
   .cause i {
@@ -67,7 +101,6 @@
   }
 
   .expand .hidden {
-    padding: 30px;
     margin-top: 20px;
     justify-content: center;
     width: 47%;
@@ -174,7 +207,7 @@
   }
 
   .cause-containt {
-    width: 70%;
+    width: 80%;
     display: flex;
     margin: 60px auto;
   }
@@ -229,9 +262,8 @@
     padding: 40px 0;
   }
 
-  .bihande {
-    margin-top: -15px;
-    margin-right: -55px;
+  .box-img {
+    width: 140px;
   }
 
   .speakers .image01 {
@@ -284,7 +316,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     margin: auto 0;
-    width: 35%;
+    width: 120px;
     height: 120px;
   }
 
@@ -296,7 +328,7 @@
   .speaker {
     display: flex;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     margin: 80px auto;
     justify-content: center;
     align-items: center;
