@@ -255,14 +255,13 @@ nav {
   background-size: cover;
   -webkit-background-clip: text;
   font-weight: 900;
-  margin-top: 100px;
+  margin-top: 99px;
   text-transform: uppercase;
   color: #ec53429f;
 }
 
 .home-containte h2 {
   margin-top: 0;
-
 }
 
 .home-containte p {
