@@ -248,7 +248,8 @@ nav {
   padding: 20px;
 }
 
-.home-containte h1 {
+.home-containte h1,
+.home-containte h2 {
   font-family: 'Krona One', sans-serif;
   background-image: url('img/home.jpg');
   background-size: cover;
@@ -260,14 +261,8 @@ nav {
 }
 
 .home-containte h2 {
-  font-family: 'Krona One', sans-serif;
-  background-image: url('img/home.jpg');
-  background-size: cover;
-  -webkit-background-clip: text;
-  font-weight: 900;
-  font-size: 50px;
-  text-transform: uppercase;
-  color: #ec5342a1;
+  margin-top: 0;
+
 }
 
 .home-containte p {
