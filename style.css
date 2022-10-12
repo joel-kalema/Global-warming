@@ -29,10 +29,9 @@ li {
   font-size: 13px;
 }
 
-.nav-show {
-  display: none;
-}
-
+.nav-logo,
+.nav-show,
+.hidden,
 .desk {
   display: none;
 }
@@ -50,10 +49,6 @@ li {
 
 .active-nav a {
   color: #ec5242;
-}
-
-.hidden {
-  display: none;
 }
 
 .expand .hidden {
@@ -142,10 +137,6 @@ nav {
   color: #d3d3d38a;
 }
 
-.nav-logo {
-  display: none;
-}
-
 .nav-links {
   overflow: hidden;
   display: none;
@@ -198,10 +189,6 @@ nav {
   position: fixed;
   font-size: 30px;
   transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .scroll {
@@ -211,29 +198,17 @@ nav {
   position: fixed;
   font-size: 30px;
   transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .icon {
   padding-left: 0;
   transition: 0.7s ease;
-  -webkit-transition: 0.7s ease;
-  -moz-transition: 0.7s ease;
-  -ms-transition: 0.7s ease;
-  -o-transition: 0.7s ease;
 }
 
 .active {
   color: #d3d3d3;
   padding-left: 30px;
   transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .home {
