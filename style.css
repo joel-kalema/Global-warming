@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Open+Sans:wght@300&family=Poppins:wght@100;400&family=Prompt:wght@300&family=Roboto:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cambay&family=Krona+One&family=Montserrat:wght@900&family=Open+Sans:wght@300&family=Poppins:wght@100;400&family=Prompt:wght@300&family=Roboto:wght@400;900&display=swap');
 
@@ -29,10 +30,9 @@ li {
   font-size: 13px;
 }
 
-.nav-show {
-  display: none;
-}
-
+.nav-logo,
+.nav-show,
+.hidden,
 .desk {
   display: none;
 }
@@ -50,10 +50,6 @@ li {
 
 .active-nav a {
   color: #ec5242;
-}
-
-.hidden {
-  display: none;
 }
 
 .expand .hidden {
@@ -142,10 +138,6 @@ nav {
   color: #d3d3d38a;
 }
 
-.nav-logo {
-  display: none;
-}
-
 .nav-links {
   overflow: hidden;
   display: none;
@@ -198,10 +190,6 @@ nav {
   position: fixed;
   font-size: 30px;
   transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .scroll {
@@ -211,29 +199,17 @@ nav {
   position: fixed;
   font-size: 30px;
   transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .icon {
   padding-left: 0;
   transition: 0.7s ease;
-  -webkit-transition: 0.7s ease;
-  -moz-transition: 0.7s ease;
-  -ms-transition: 0.7s ease;
-  -o-transition: 0.7s ease;
 }
 
 .active {
   color: #d3d3d3;
   padding-left: 30px;
   transition: 1s ease;
-  -webkit-transition: 1s ease;
-  -moz-transition: 1s ease;
-  -ms-transition: 1s ease;
-  -o-transition: 1s ease;
 }
 
 .home {
@@ -248,26 +224,20 @@ nav {
   padding: 20px;
 }
 
-.home-containte h1 {
-  font-family: 'Krona One', sans-serif;
-  background-image: url('img/home.jpg');
-  background-size: cover;
-  -webkit-background-clip: text;
-  font-weight: 900;
-  margin-top: 100px;
-  text-transform: uppercase;
-  color: #ec53429f;
-}
-
+.home-containte h1,
 .home-containte h2 {
   font-family: 'Krona One', sans-serif;
   background-image: url('img/home.jpg');
   background-size: cover;
   -webkit-background-clip: text;
   font-weight: 900;
-  font-size: 50px;
+  margin-top: 99px;
   text-transform: uppercase;
-  color: #ec5342a1;
+  color: #ec53429f;
+}
+
+.home-containte h2 {
+  margin-top: 0;
 }
 
 .home-containte p {

@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Global warming
+![Mobile version screeshot](img/live.jpg)
 
-> In this capstone project, it is based on an online website for a conference. They provided me with design guidelines to create the website ([design guidelines](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015)), but I have to customize the content, i.e. instead of a lecture, I built a website for a development course Web.The content of my project was based on global warming
+> Welcome to my Microverse's Capstone 1 project, the global warming forum website. In this project, we are given with a [template designs](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and we are asked to make our own website with a different subject. 
+ -which in my case is the global warming forum!This is a responsive website that navigates from the home page to the about page, follow mobile first sticks to the template design as much as possible.
 
 ## Built With
 
@@ -10,15 +12,13 @@
 - Css
 - Js
 
-## Screenshots
-
-![Mobile version screeshot](img/live.jpg)
-
 ## Live Demo
 
-[Live Demo](https://joel-kalema.github.io/Global-warming/)
+click [here](https://joel-kalema.github.io/Global-warming/)!
 
-[video capture](https://www.loom.com/share/1ae7a65d5c1d4a148316467cb290204d)
+## Description Video
+
+Click [here](https://www.loom.com/share/1ae7a65d5c1d4a148316467cb290204d) to see the video discribing the project.
 
 ## Getting Started
 
