@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+
 
 # Global warming
 ![Mobile version screeshot](img/live.jpg)
