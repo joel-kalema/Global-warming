@@ -33,7 +33,7 @@ Set-up ESLint in your local env:
 -Copy [.eslintrc.json](https://github.com/microverseinc/linters-config/blob/master/html-css-js/.eslintrc.json) to the root directory of your project.
 -Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
 -Run `npx eslint .` on the root of your directory of your project.
--Fix linter errors.
+-Fix linter errors
 
 ## Authors
 
