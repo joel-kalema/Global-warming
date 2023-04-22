@@ -1,6 +1,6 @@
 
 
-# Global warming
+# Global warming.
 ![Mobile version screeshot](img/live.jpg)
 
 > Welcome to my Microverse's Capstone 1 project, the global warming forum website. In this project, we are given with a [template design](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) and we are asked to make our own website with a different subject. 
